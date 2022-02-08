@@ -1,0 +1,72 @@
+--   = comparison ->equality-> exact match
+deptno=(10,20,30)
+input_deptno=10
+
+select empno,ename,deptno
+from emp
+where
+deptno=10
+
+select 
+	empno,ename,deptno
+from
+	emp
+where
+	ename='ALLEN'
+
+select 
+	empno,ename,deptno
+from
+	emp
+where
+	ename like 'A%'
+	
+Begins with	ename like 'A%'
+Ends with	ename like '%A'
+inbetween   ename like '%A%'
+some charracters ename like 'ALL__N'	
+
+
+1+0=1
+0+1=1
+1+novalue=novalue 
+novalue=>null
+1+null=null
+any where in comm column if the value is null =>0 and then do the addition
+
+oracle nvl(column_name,default)=> nvl(comm,0)
+================================================
+1. DQL
+2. SELECT
+3. WHERE
+4. ORDER BY
+5. >,<,>=,<=,IN,NOT IN, BETWEEN, NOT BETWEEN,
+6. LIKE, NOT LIKE
+7. IS NULL, IS NOT NULL
+8. OR
+9. AND
+10. AGGREGATE FUNCTIONS 
+	MIN,MAX,SUM,AVERAGE,COUNT
+11. GROUP BY Clause with Aggregate functions
+12. nvl()
+13. case when * more exaples
+==============================================
+Assignment:
+Oracle Query
+	Oracle Queries
+	Oracle Select
+	Oracle Insert
+	Oracle Insert All
+	Oracle Update
+	Oracle Delete
+	Truncate Table
+Oracle Clauses
+	Oracle DISTINCT
+	Oracle FROM
+	Oracle ORDER BY
+	Oracle GROUP BY
+	Oracle HAVING
+Oracle Misc
+
+==============================
+https://www.oracletutorial.com/
