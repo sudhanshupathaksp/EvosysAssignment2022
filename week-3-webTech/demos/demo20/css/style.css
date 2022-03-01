@@ -1,0 +1,15 @@
+section{
+    background-color:goldenrod;
+    color:maroon;
+    height:60%;
+    text-align: center;
+    width:100%;
+    
+}
+pre > div{
+    height:5%;
+}
+div > label{
+
+    font-weight: bold;
+}
